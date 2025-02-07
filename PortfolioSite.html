@@ -3,12 +3,25 @@
 <head>
     <style>
         table, th, td{
-            border: 2px solid black;
+            border: 5px double black;
             border-radius: 10px;
-            width:50%;
+            width: 80%;
         }
         th, td{
             background-color: gray;
+            padding: 15px;
+            text-align: center;
+
+        }
+        table {
+            padding: 20px;
+        }
+        .Font{
+            font-size: 20px;
+        }
+        footer{
+            background-color: gray;
+            padding: 10px;
         }
         .center{
             display: block;
@@ -16,16 +29,26 @@
             margin-right: auto;
             width: 10%;
         }
+        .Award{
+            width: 30%;
+        }
         body{
-            background-color:paleturquoise;
+            background-image: url(Background.webp);
+            background-repeat: no-repeat;
+            background-size: cover;
         }
         h4, p{
             text-align: center;
+            color: white;
+        }
+        header, h3{
+            color: white;
         }
     </style>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio</title>
+    <link rel="icon" type="image/x-icon" href="CIIT Logo.png">
 </head>
 <body>
     <header style="text-align:center; font-size: 300%"><b> My Portfolio </b> </header>
@@ -44,38 +67,25 @@
         </p>
 
         <!--BORDER FOR ACHIEVMENTS-->
-        <table>
+        <table align="center">
             <tr>
               <th>Picture of Achievments</th>
               <th>Description of Achievments</th> 
             </tr>
             <tr>
-              <td>Jill</td>
-              <td>Smith</td>
-            </tr>
-            <tr>
-              <td>Eve</td>
-              <td>Jackson</td>
-            </tr>
-            <tr>
-              <td>John</td>
-              <td>Doe</td>
+              <td> <img src="Award.png" class="Award"></a></td>
+              <td>Got Top 6 in Second Quarter</td>
             </tr>
           </table>
-
+          <footer>
         <h3> Socials </h3>
-        <a href="https://www.facebook.com/bryllechristian.matias.7" target="_blank">
-            <img src="https://logodownload.org/wp-content/uploads/2014/09/facebook-logo-1.png" width="100"> 
+        <a href="https://www.facebook.com/bryllechristian.matias.7" target="_blank" class="Font"> Facebook</a>
         </a>
-        <br> 
-        <a href="https://www.instagram.com/bryy._.matias/" target="_blank"> 
-            <img src="https://logos-world.net/wp-content/uploads/2020/04/Instagram-Logo-2015-2016.png" width="100">
+        <a href="https://www.instagram.com/bryy._.matias/" target="_blank" class="Font"> Instagram
         </a>
-        <br>
-        <a href="https://www.tiktok.com/@bryy_just_diff?lang=en" target="_blank"> 
-            <img src="https://upload.wikimedia.org/wikipedia/en/thumb/a/a9/TikTok_logo.svg/2560px-TikTok_logo.svg.png" width="100">
+        <a href="https://www.tiktok.com/@bryy_just_diff?lang=en" target="_blank" class="Font"> Tiktok
         </a>
 
-
+    </footer>
 </body>
 </html>
